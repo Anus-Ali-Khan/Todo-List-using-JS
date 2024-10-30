@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #4169e1, #1e90ff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    background-color: white;
+    height: 80vh;
+    width: 80vh;
+    border-radius: 10px;
+
+}
+
+#card h1 {
+    text-align: center;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 2rem;
+    background-color: #66d8f5;
+}
+
+#card #header {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+#card #header input {
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+#card #header button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+
+
+}
+
+#card #header button:hover {
+    background-color: orangered;
+    color: white;
+}
+
+
+
+#card #todos ul div {
+    padding: 20px;
+    list-style: none;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#card #todos ul div li {
+    font-size: 1.2rem;
+}
+
+#card #todos ul div img {
+    cursor: pointer;
+    height: 18px;
+}
